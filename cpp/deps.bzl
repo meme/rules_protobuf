@@ -11,8 +11,8 @@ DEPS = {
 
     "boringssl": {
         "rule": "http_archive",
-        # master-with-bazel Fri Sep 01 15:09:13 2017 +0000
         "url": "https://github.com/meme/boringssl/archive/09ec09b4c8bae4cdf2b8f139227a5a5ac9b3e554.zip",
+        "strip_prefix": "boringssl-09ec09b4c8bae4cdf2b8f139227a5a5ac9b3e554",
     },
 
     # libssl is required for c++ grpc where it is expected in
